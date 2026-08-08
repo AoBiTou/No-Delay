@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "vinext build",
+    "build:pages": "node scripts/build-pages.mjs",
     "postbuild": "node scripts/prepare-hosting.mjs",
     "start": "vinext start",
     "lint": "eslint .",
